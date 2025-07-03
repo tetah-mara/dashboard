@@ -1,0 +1,22 @@
+{
+  "name": "doldur-dashboard-premium",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "postinstall": "tailwindcss -i ./styles/globals.css -o ./styles/output.css --minify"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "recharts": "latest",
+    "lucide-react": "latest"
+  },
+  "devDependencies": {
+    "tailwindcss": "latest",
+    "postcss": "latest",
+    "autoprefixer": "latest"
+  }
+}
